@@ -2,7 +2,7 @@
   "required": true,
   "package": "com.viewmodelmod.mixin",
   "compatibilityLevel": "JAVA_21",
-  "client": [
+  "mixins": [
     "HeldItemRendererMixin",
     "GameRendererMixin",
     "ClientPlayerInteractionManagerMixin"
