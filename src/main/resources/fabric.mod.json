@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "viewmodelmod",
+  "version": "${version}",
+  "name": "Viewmodel+ Swing Animation",
+  "description": "Custom viewmodel positions and swing animations for Minecraft 1.21.4",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://github.com/yourname/viewmodelmod",
+    "issues": "https://github.com/yourname/viewmodelmod/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/viewmodelmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.viewmodelmod.ViewmodelModClient"
+    ]
+  },
+  "mixins": [
+    "viewmodelmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
